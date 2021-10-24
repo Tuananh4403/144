@@ -35,7 +35,7 @@ void Invitri(float a[], int n) {
 	for (int i = 0; i < n; i++)
 	{
 		if (Max(a, n) == a[i]) {
-			cout << i+1 << ",";
+			cout << i+1  << ",";
 		}
 	}
 }
