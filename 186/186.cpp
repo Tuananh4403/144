@@ -39,11 +39,11 @@ int main() {
 	Nhap(a, n);
 	Xuat(a, n);
 	if (Soamdautien(a, n) != 0) {
-		cout << "Vi tri cac so am bang so am dau tien cua mang: ";
+		cout << "\nVi tri cac so am bang so am dau tien cua mang: ";
 		for (int i = 0; i < n; i++)
 		{
 			if (a[i] == Soamdautien(a, n)) {
-				cout << i << ", ";
+				cout << i +1<< ", ";
 			}
 		}
 	}
